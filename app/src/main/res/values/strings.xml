@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Egypt Business Guide</string>
+    <string name="maps_api_key">AIzaSyDRW6LNlRCRle9CPM11ZIw4ihiNbdJbkUE</string>
+
+    <string name="powered_by">بواسطة</string>
+    <string name="egypt_business_guide">دليل مصر للأعمال</string>
+    <string name="trade_room">الغرفة التجارية</string>
+    <string name="egypt_media_center">المركز المصري للإعلام</string>
+    <string name="introduction">مقدمة</string>
+    <string name="vision">الرؤية</string>
+    <string name="investment_in_egypt">الاستثمار في مصر</string>
+    <string name="investment_climate">المناخ الاستثماري</string>
+    <string name="international_agreements">الاتفاقيات الدولية</string>
+    <string name="investment_systems">أنظمة الاستثمار</string>
+    <string name="national_projects">المشروعات القومية</string>
+    <string name="ministries">وزارات</string>
+    <string name="organizations">هيئات</string>
+    <string name="gov_sector">القطاع الحكومي</string>
+    <string name="business_sector">قطاع الأعمال</string>
+    <string name="services">خدمات</string>
+    <string name="tap_to_refresh">اضغط للتحديث</string>
+    <string name="error_loading_data">خطأ في تحميل البيانات</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالانترنت</string>
+    <string name="connection_error">خطأ في الاتصال بالانترنت</string>
+    <string name="no_data">لا يوجد بيانات</string>
+    <string name="no_sectors">لا يوجد قطاعات</string>
+    <string name="no_sub_sectors">لا يوجد أقسام</string>
+    <string name="no_companies">لا يوجد شركات</string>
+    <string name="no_ministry_data">لا يوجد بيانات لهذه الوزارة</string>
+    <string name="address">عنوان</string>
+    <string name="search">بحث</string>
+    <string name="by_sector">بالقطاع</string>
+    <string name="by_sub_sector">بالقسم</string>
+    <string name="by_company">بالشركة</string>
+    <string name="by_place">بالمكان</string>
+    <string name="enter_search_text">أدخل كلمة البحث</string>
+    <string name="no_search_results">لا يوجد نتائج بحث</string>
+    <string name="load_more">اضغط للمزيد</string>
+    <string name="good_morning">صباح\nالخير</string>
+    <string name="good_afternoon">ظهيرة\nسعيدة</string>
+    <string name="good_evening">مساء\nالخير</string>
+    <string name="search_hint">بحث...</string>
+    <string name="search_in_services_hint">بحث في الخدمات...</string>
+    <string name="quick_search">بحث سريع</string>
+    <string name="service_cat1">بنوك</string>
+    <string name="service_cat2">فنادق</string>
+    <string name="service_cat3">سفارات</string>
+    <string name="service_cat4">طبية</string>
+    <string name="service_cat5">مطاعم</string>
+    <string name="service_cat6">شحن</string>
+    <string name="service_cat7">صيانة</string>
+    <string name="service_cat8">عقارات</string>
+    <string name="service_cat9">كمبيوتر</string>
+    <string name="service_cat10">ماركت</string>
+    <string name="service_cat11">تاكسي</string>
+    <string name="language">اللغة</string>
+    <string name="arabic">العربية</string>
+    <string name="english">English</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">الغاء</string>
+    <string name="contact_us">إتصل بنا</string>
+    <string name="management">الإدارة</string>
+    <string name="about_room">عن الغرفة</string>
+    <string name="conferences">مؤتمرات</string>
+    <string name="website">الموقع الالكتروني</string>
+    <string name="no_events">لا يوجد فعاليات</string>
+
+    <!-- EMC CONTACT US DATA -->
+    <string name="emc_cairo_address">جولدن مول - الدور السادس - ميدان فودافون - السادس من اكتوبر - الجيزة - مصر</string>
+    <string name="emc_cairo_phone1">+2 02 3830 0510</string>
+    <string name="emc_cairo_phone2">+2 02 3830 0488</string>
+    <string name="emc_cairo_fax">+2 02 3830 0508</string>
+    <string name="emc_cairo_mail">info@egypt-media.com</string>
+    <string name="emc_cairo_website">egypt-media.com</string>
+    <string name="emc_alex_address">حي رشدي - شارع سوريا - برج سقارة 2 - الدور الثاني</string>
+    <string name="emc_alex_phone">03 5233704</string>
+    <string name="emc_alex_fax">03-5232386</string>
+    <string name="emc_alex_mail">info.alex@egypt-media.com</string>
+
+    <!-- PROJECTS NAMES-->
+    <string name="proj1">مشروعي تطوير مطار وميناء الغردقة</string>
+    <string name="proj2">مشروع تنمية محور قناة السويس </string>
+    <string name="proj3">مشروع المركز اللوجستي العالمي لتخزين وتداول الغلال والحبوب </string>
+    <string name="proj4">مشروع تنمية الساحل الشمالي الغربي</string>
+    <string name="proj5">مشروع مدينة الجلود بالروبيكى</string>
+    <string name="proj6">مشروع الخريطة الصناعية المستقبلية</string>
+
+    <!-- ORGANIZATIONS NAMES-->
+    <string name="org1_name">الهيئة العامة للاستثمار والمناطق الحرة</string>
+    <string name="org2_name">لهيئة العامة للتخطيط العمرانى</string>
+    <string name="org3_name">المجلس الأعلى للجامعات</string>
+    <string name="org4_name">الهيئة الزراعية المصرية</string>
+    <string name="org5_name">الهيئة العامة للخدمات البيطرية</string>
+    <string name="org6_name">جهاز حماية المستهلك</string>
+    <string name="org7_name">الهيئة العامة للتنشيط السياحى</string>
+    <string name="org8_name">مكتبة الاسكندرية</string>
+    <string name="org9_name">الهيئة العامة لتنمية الثروة السمكية</string>
+    <string name="org10_name">الهيئة العامة للاستعلامات</string>
+    <string name="org11_name">الهيئة المصرية العامة للمعارض والمؤتمرات</string>
+    <string name="org12_name">الهيئة المصرية العامة للمواصفات والجودة</string>
+    <string name="org13_name">الهيئة العامة للتنمية الصناعية</string>
+    <string name="org14_name">الهيئة العامة لتنفيذ المشروعات الصناعية والتعدينية</string>
+
+    <!-- ORGANIZATIONS WEBSITES-->
+    <string name="org1_website">gafinet.org</string>
+    <string name="org2_website">gopp.gov.eg</string>
+    <string name="org3_website">egy-mhe.gov.eg</string>
+    <string name="org4_website">elzahraa-stud.org.eg/Arabic/main.html</string>
+    <string name="org5_website">govs.gov.eg</string>
+    <string name="org6_website">cpa.gov.eg</string>
+    <string name="org7_website">egypttreasures.gov.eg</string>
+    <string name="org8_website">bibalex.org/ARABIC/index.aspx</string>
+    <string name="org9_website">http://gafrd.kenanaonline.com/</string>
+    <string name="org10_website">sis.gov.eg</string>
+    <string name="org11_website">cicc.egnet.net</string>
+    <string name="org12_website">eos.org.eg</string>
+    <string name="org13_website">ida.gov.eg</string>
+    <string name="org14_website">mti.gov.eg/affiliates/imc/imc.htm</string>
+
+    <!-- ORGANIZATIONS PHONE NUMBERS -->
+    <string name="org1_phone1">02-24055452</string>
+    <string name="org2_phone1">02-27921520</string>
+    <string name="org2_phone2">02-27921521</string>
+    <string name="org3_phone1">020-3458368</string>
+    <string name="org3_phone2">02-3458367</string>
+    <string name="org4_phone1">02-35681658</string>
+    <string name="org4_phone2">02-35686373</string>
+    <string name="org5_phone1">02-33372498</string>
+    <string name="org5_phone2">02-37494961</string>
+    <string name="org6_phone1">02-35380383</string>
+    <string name="org7_phone1">02-24849399</string>
+    <string name="org8_phone1">02-24839999</string>
+    <string name="org9_phone1">02-22603934</string>
+    <string name="org10_phone1">02-22617304</string>
+    <string name="org10_phone2">02-22617308</string>
+    <string name="org11_phone1">02-22633222</string>
+    <string name="org11_phone2">02-22634632</string>
+    <string name="org12_phone1">02-22845500</string>
+    <string name="org12_phone2">02-22845522</string>
+    <string name="org13_phone1">002-27957005</string>
+    <string name="org13_phone2">002-27944640</string>
+    <string name="org14_phone1">02-25883395</string>
+    <string name="org14_phone2">02-25883396</string>
+
+    <!-- MINISTRIES NAMES -->
+    <string name="ministry1">رئاسة مجلس الوزراء</string>
+    <string name="ministry2">وزراة الدفاع والانتاج الحربى</string>
+    <string name="ministry3">وزراة الدولة للانتاج الحربى</string>
+    <string name="ministry4">وزارة البترول والثروة المعدنية</string>
+    <string name="ministry5">وزارة الكهرباء والطاقة المتجددة</string>
+    <string name="ministry6">وزارة الخارجية</string>
+    <string name="ministry7">وزارة البيئة</string>
+    <string name="ministry8">وزارة الاتصالات وتكنولوجيا المعلومات</string>
+    <string name="ministry9">وزارة التربية والتعليم</string>
+    <string name="ministry10">وزارة القوى العاملة والهجرة</string>
+    <string name="ministry11">وزارة العدل</string>
+    <string name="ministry12">وزارة التنمية المحلية</string>
+    <string name="ministry13">وزارة الاسكان والمجتمعات العمرانية</string>
+    <string name="ministry14">وزارة الاوقاف</string>
+    <string name="ministry15">وزارة الداخلية</string>
+    <string name="ministry16">وزارة الصناعة والتجارة و الصناعات الصغيرة</string>
+    <string name="ministry17">وزارة المالية</string>
+    <string name="ministry18">وزارة الطيران المدني</string>
+    <string name="ministry19">وزارة النقل والمواصلات</string>
+    <string name="ministry20">وزارة الثقافة</string>
+    <string name="ministry21">وزارة الصحة و السكان</string>
+    <string name="ministry22">وزارة الموارد المائية والري</string>
+    <string name="ministry23">وزارة الزراعة واستصلاح الأراضي</string>
+    <string name="ministry24">وزارة الاستثمار</string>
+    <string name="ministry25">وزارة السياحة</string>
+    <string name="ministry26">وزارة التخطيط والمتابعة والإصلاح الإدارى</string>
+    <string name="ministry27">وزارة التعليم العالي</string>
+    <string name="ministry28">وزارة التموين والتجارة الداخلية</string>
+    <string name="ministry29">وزارة البحث العلمي</string>
+    <string name="ministry30">وزارة الآثار</string>
+    <string name="ministry31">وزراة الشباب والرياضة</string>
+    <string name="ministry32">وزارة العدالة الانتقالية و مجلس النواب</string>
+    <string name="ministry33">وزارة التعاون الدولي</string>
+
+    <!-- MINISTRIES WEBSITES -->
+    <string name="ministry1_website">cabinet.gov.eg</string>
+    <string name="ministry2_website">mmc.gov.eg</string>
+    <string name="ministry3_website">momp.gov.eg</string>
+    <string name="ministry4_website">petroleum.gov.eg</string>
+    <string name="ministry5_website">moee.gov.eg</string>
+    <string name="ministry6_website">mfa.gov.eg</string>
+    <string name="ministry7_website">eeaa.gov.eg</string>
+    <string name="ministry8_website">mcit.gov.eg</string>
+    <string name="ministry9_website">http://moe.gov.eg/Pages/Default.aspx</string>
+    <string name="ministry10_website">manpower.gov.eg</string>
+    <string name="ministry11_website">moj.gov.eg</string>
+    <string name="ministry12_website">mold.gov.eg</string>
+    <string name="ministry13_website">moh.gov.eg</string>
+    <string name="ministry14_website">awkaf.org</string>
+    <string name="ministry15_website">moiegypt.gov.eg</string>
+    <string name="ministry16_website">mfti.gov.eg</string>
+    <string name="ministry17_website">mof.gov.eg</string>
+    <string name="ministry18_website">civilaviation.gov.eg</string>
+    <string name="ministry19_website">mot.gov.eg</string>
+    <string name="ministry20_website">ecm.gov.eg</string>
+    <string name="ministry21_website">mohp.gov.eg</string>
+    <string name="ministry22_website">mwri.gov.eg</string>
+    <string name="ministry23_website">agr-egypt.gov.eg</string>
+    <string name="ministry24_website">investment.gov.eg</string>
+    <string name="ministry25_website">tourism.gov.eg</string>
+    <string name="ministry26_website">mop.gov.eg</string>
+    <string name="ministry27_website">egy-mhe.gov.eg</string>
+    <string name="ministry28_website">msit.gov.eg</string>
+    <string name="ministry29_website">msr.gov.eg</string>
+    <string name="ministry31_website">emss.gov.eg</string>
+    <string name="ministry33_1website">moic.gov.eg</string>
+
+    <!-- MINISTRIES PHONE NUMBERS -->
+    <string name="ministry1_phone1">02-27958014</string>
+    <string name="ministry1_phone2">02-27935000</string>
+    <string name="ministry2_phone1">02-24032158</string>
+    <string name="ministry3_phone1">02-27951428</string>
+    <string name="ministry3_phone2">02-27947968</string>
+    <string name="ministry4_phone1">02-27601401</string>
+    <string name="ministry4_phone2">02-22631000</string>
+    <string name="ministry5_phone1">02-24012361</string>
+    <string name="ministry5_phone2">02-24012371</string>
+    <string name="ministry6_phone1">02-25749821</string>
+    <string name="ministry7_phone1">02-25256452</string>
+    <string name="ministry7_phone2">19808</string>
+    <string name="ministry8_phone1">02-23444544</string>
+    <string name="ministry8_phone2">02-35341300</string>
+    <string name="ministry9_phone1">02-25787644</string>
+    <string name="ministry9_phone2">02-27947363</string>
+    <string name="ministry10_phone1">02-22609368</string>
+    <string name="ministry10_phone2">02-22618019</string>
+    <string name="ministry11_phone1">02-27949912</string>
+    <string name="ministry11_phone2">02-27946866</string>
+    <string name="ministry12_phone1">02-33067082</string>
+    <string name="ministry13_phone1">02-27921442</string>
+    <string name="ministry13_phone2">02-27921441</string>
+    <string name="ministry14_phone1">02-23931216</string>
+    <string name="ministry14_phone2">02-23933011</string>
+    <string name="ministry15_phone1">02-27948300</string>
+    <string name="ministry15_phone2">02-27959111 </string>
+    <string name="ministry16_phone1">02-27921193</string>
+    <string name="ministry16_phone2">02-27921194</string>
+    <string name="ministry17_phone1">02-23428010</string>
+    <string name="ministry17_phone2">02-23428830</string>
+    <string name="ministry18_phone1">02-22688342</string>
+    <string name="ministry18_phone2">02-22688345</string>
+    <string name="ministry19_phone1">02-22400814</string>
+    <string name="ministry19_phone2">02-22604884</string>
+    <string name="ministry20_phone1">02-27380761</string>
+    <string name="ministry20_phone2">02-27380762</string>
+    <string name="ministry21_phone1">02-27951821</string>
+    <string name="ministry22_phone1">02-35449420</string>
+    <string name="ministry23_phone1">02-33372677</string>
+    <string name="ministry23_phone2">02-33372970</string>
+    <string name="ministry24_phone1">02-24055628</string>
+    <string name="ministry24_phone2">02-24055651</string>
+    <string name="ministry25_phone1">02-22611732</string>
+    <string name="ministry25_phone2">02-23903000</string>
+    <string name="ministry26_phone1">02-22414532</string>
+    <string name="ministry27_phone1">02-27920323</string>
+    <string name="ministry28_phone1">02-23375404</string>
+    <string name="ministry28_phone2">02-27958481</string>
+    <string name="ministry29_phone1">02-27921282</string>
+    <string name="ministry29_phone2">02-27944583</string>
+    <string name="ministry30_phone1">02-273560645</string>
+    <string name="ministry30_phone2">02-27371724</string>
+    <string name="ministry31_phone1">02-33048630</string>
+    <string name="ministry33_phone1">02-23910008</string>
+    <string name="ministry33_phone2">02-23935147</string>
+
+    <!-- MANAGEMENT PERSONS NAMES -->
+    <string name="m_person1">سعادة السفير الدكتور / محمد حمزة الحسينى</string>
+    <string name="m_person2">د/اسلام حمزة الحسينى</string>
+    <string name="m_person3">السيد/محمود حمزة الحسينى الحسينى</string>
+    <string name="m_person4">السيد / احمد ايوب</string>
+    <string name="m_person5">السيد/احمد خليل عبد الحميد</string>
+    <string name="m_person6">السيد / مصطفى محمد احمد</string>
+    <string name="m_person7">السيد / اسلام عبد السلام</string>
+    <string name="m_person8">السيدة / ميرا الهندى</string>
+
+    <!-- MANAGEMENT PERSON MAILS -->
+    <string name="m_person1_mail">chairman@egypt-media.com</string>
+    <string name="m_person2_mail">Dr.eslam@egypt-media.com</string>
+    <string name="m_person3_mail">m.hamza@egypt-media.com</string>
+    <string name="m_person5_mail">art@egyp-media.com</string>
+    <string name="m_person6_mail">Mustafa@egypt-media.com</string>
+    <string name="m_person7_mail">eslam@egypt-media.com</string>
+    <string name="m_person8_mail">mira@egypt-media.com</string>
+
+    <!-- INVESTMENT SYSTEMS NAME -->
+    <string name="inv_system1">الاستثمار الداخلى</string>
+    <string name="inv_system2">المناطق الحرة</string>
+    <string name="inv_system3">المناطق الاستثمارية</string>
+    <string name="inv_system4">المناطق الاقتصادية الخاصة</string>
+
+    <string-array name="investment_tabs">
+        <item>@string/national_projects</item>
+        <item>@string/investment_systems</item>
+        <item>@string/international_agreements</item>
+        <item>@string/investment_climate</item>
+    </string-array>
+
+    <string-array name="projects">
+        <item>@string/proj1</item>
+        <item>@string/proj2</item>
+        <item>@string/proj3</item>
+        <item>@string/proj4</item>
+        <item>@string/proj5</item>
+        <item>@string/proj6</item>
+    </string-array>
+
+    <string-array name="organizations">
+        <item>@string/org1_name</item>
+        <item>@string/org2_name</item>
+        <item>@string/org3_name</item>
+        <item>@string/org4_name</item>
+        <item>@string/org5_name</item>
+        <item>@string/org6_name</item>
+        <item>@string/org7_name</item>
+        <item>@string/org8_name</item>
+        <item>@string/org9_name</item>
+        <item>@string/org10_name</item>
+        <item>@string/org11_name</item>
+        <item>@string/org12_name</item>
+        <item>@string/org13_name</item>
+        <item>@string/org14_name</item>
+    </string-array>
+
+    <string-array name="ministries">
+        <item>@string/ministry1</item>
+        <item>@string/ministry2</item>
+        <item>@string/ministry3</item>
+        <item>@string/ministry4</item>
+        <item>@string/ministry5</item>
+        <item>@string/ministry6</item>
+        <item>@string/ministry7</item>
+        <item>@string/ministry8</item>
+        <item>@string/ministry9</item>
+        <item>@string/ministry10</item>
+        <item>@string/ministry11</item>
+        <item>@string/ministry12</item>
+        <item>@string/ministry13</item>
+        <item>@string/ministry14</item>
+        <item>@string/ministry15</item>
+        <item>@string/ministry16</item>
+        <item>@string/ministry17</item>
+        <item>@string/ministry18</item>
+        <item>@string/ministry19</item>
+        <item>@string/ministry20</item>
+        <item>@string/ministry21</item>
+        <item>@string/ministry22</item>
+        <item>@string/ministry23</item>
+        <item>@string/ministry24</item>
+        <item>@string/ministry25</item>
+        <item>@string/ministry26</item>
+        <item>@string/ministry27</item>
+        <item>@string/ministry28</item>
+        <item>@string/ministry29</item>
+        <item>@string/ministry30</item>
+        <item>@string/ministry31</item>
+        <item>@string/ministry32</item>
+        <item>@string/ministry33</item>
+    </string-array>
+
+    <string-array name="search_by">
+        <item>@string/by_company</item>
+        <item>@string/by_sector</item>
+        <item>@string/by_sub_sector</item>
+        <item>@string/by_place</item>
+    </string-array>
+
+    <string-array name="service_categories">
+        <item>@string/service_cat1</item>
+        <item>@string/service_cat2</item>
+        <item>@string/service_cat3</item>
+        <item>@string/service_cat4</item>
+        <item>@string/service_cat5</item>
+        <item>@string/service_cat6</item>
+        <item>@string/service_cat7</item>
+        <item>@string/service_cat8</item>
+        <item>@string/service_cat9</item>
+        <item>@string/service_cat10</item>
+        <item>@string/service_cat11</item>
+    </string-array>
+
+    <string-array name="management_persons">
+        <item>@string/m_person1</item>
+        <item>@string/m_person2</item>
+        <item>@string/m_person3</item>
+        <item>@string/m_person4</item>
+        <item>@string/m_person5</item>
+        <item>@string/m_person6</item>
+        <item>@string/m_person7</item>
+        <item>@string/m_person8</item>
+    </string-array>
+
+    <string-array name="investment_systems">
+        <item>@string/inv_system1</item>
+        <item>@string/inv_system2</item>
+        <item>@string/inv_system3</item>
+        <item>@string/inv_system4</item>
+    </string-array>
+
+</resources>

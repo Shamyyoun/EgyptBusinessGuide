@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/screen_horizontal_margin"
+    android:paddingRight="@dimen/screen_horizontal_margin"
+    android:paddingTop="@dimen/screen_vertical_margin"
+    android:paddingBottom="@dimen/screen_vertical_margin">
+
+    <RadioGroup
+        android:id="@+id/radioGroup_lang"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/dark_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:id="@+id/radio_english" />
+
+        <RadioButton
+            android:checked="true"
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/dark_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/arabic"
+            android:id="@+id/radio_arabic" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:paddingTop="@dimen/screen_vertical_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/dark_gray"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/button_cancel" />
+
+        <Button
+            android:textSize="@dimen/text_medium"
+            android:textColor="@color/dark_gray"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:id="@+id/button_save" />
+
+    </LinearLayout>
+</LinearLayout>
