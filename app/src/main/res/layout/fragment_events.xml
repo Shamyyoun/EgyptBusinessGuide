@@ -1,100 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    android:layout_height="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_height="match_parent">
 
     <LinearLayout
-        android:background="@drawable/actionbar_bg"
         android:id="@+id/action_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/abc_action_bar_default_height"
+        android:background="@drawable/actionbar_bg"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
-
         <ImageButton
-            android:id="@+id/button_search"
-            android:adjustViewBounds="true"
-            android:scaleType="centerInside"
+            android:id="@+id/button_back"
             android:layout_width="@dimen/actionbar_icon_dimen"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/clickable_item"
             android:paddingLeft="@dimen/actionbar_icon_padding"
             android:paddingRight="@dimen/actionbar_icon_padding"
-            android:src="@drawable/ic_search_white"
-            android:background="@drawable/clickable_item"
-            android:visibility="visible" />
+            android:scaleType="centerInside"
+            android:scaleX="-1"
+            android:src="@drawable/ic_back_white" />
 
         <TextView
-            android:singleLine="true"
-            android:maxLines="1"
-            android:scrollHorizontally="true"
             android:id="@+id/text_title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="right"
+            android:gravity="left"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
             android:text="@string/conferences"
             android:textColor="@color/white"
             android:textSize="@dimen/title_dimen" />
 
         <ImageButton
-            android:adjustViewBounds="true"
-            android:scaleType="centerInside"
-            android:id="@+id/button_back"
+            android:id="@+id/button_search"
             android:layout_width="@dimen/actionbar_icon_dimen"
             android:layout_height="match_parent"
+            android:adjustViewBounds="true"
             android:background="@drawable/clickable_item"
             android:paddingLeft="@dimen/actionbar_icon_padding"
             android:paddingRight="@dimen/actionbar_icon_padding"
-            android:src="@drawable/ic_back_white" />
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_search_white"
+            android:visibility="visible" />
 
     </LinearLayout>
 
     <FrameLayout
-        android:paddingBottom="@dimen/abc_action_bar_default_height"
-        android:layout_below="@+id/action_bar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@+id/action_bar"
+        android:paddingBottom="@dimen/abc_action_bar_default_height">
 
         <include
             android:id="@+id/view_progress"
-            android:visibility="gone"
+            layout="@layout/view_progress"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            layout="@layout/view_progress"></include>
+            android:visibility="gone"></include>
 
         <include
             android:id="@+id/view_error"
-            android:visibility="gone"
+            layout="@layout/view_error"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            layout="@layout/view_error"></include>
+            android:visibility="gone"></include>
 
         <include
             android:id="@+id/view_empty"
-            android:visibility="gone"
+            layout="@layout/view_empty"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            layout="@layout/view_empty"></include>
+            android:visibility="gone"></include>
 
 
         <FrameLayout
-            android:visibility="gone"
             android:id="@+id/view_main"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:visibility="gone">
 
             <views.SlideExpandableListView
-                android:drawSelectorOnTop="false"
-                android:listSelector="#00000000"
-                android:groupIndicator="@null"
                 android:id="@+id/list_events"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:drawSelectorOnTop="false"
+                android:groupIndicator="@null"
+                android:listSelector="#00000000" />
 
         </FrameLayout>
-
     </FrameLayout>
-
 </RelativeLayout>

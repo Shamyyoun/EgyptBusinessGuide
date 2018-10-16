@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.mahmoudelshamy.ebg.AppController;
 import com.mahmoudelshamy.ebg.R;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
@@ -51,7 +52,7 @@ public class SearchAdapter extends ArrayAdapter<SearchableItem> {
 
         // set data
         SearchableItem searchableItem = data.get(position);
-        holder.textName.setText(searchableItem.getName());
+        holder.textName.setText(AppController.getInstance(activity.getApplicationContext()).getLang().equals("en") ? searchableItem.getNameEn() : searchableItem.getName());
 
         // check if has thumbnail
         if (searchableItem.getThumbnail() == null)

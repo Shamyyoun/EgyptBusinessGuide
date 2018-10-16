@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powered_by">بواسطة</string>
+    <string name="egypt_business_guide">دليل مصر للأعمال</string>
+    <string name="trade_room">الغرفة التجارية</string>
+    <string name="egypt_media_center">المركز المصري للإعلام</string>
+    <string name="introduction">مقدمة</string>
+    <string name="vision">الرؤية</string>
+    <string name="investment_in_egypt">الاستثمار في مصر</string>
+    <string name="investment_climate">المناخ الاستثماري</string>
+    <string name="international_agreements">الاتفاقيات الدولية</string>
+    <string name="investment_systems">أنظمة الاستثمار</string>
+    <string name="national_projects">المشروعات القومية</string>
+    <string name="ministries">وزارات</string>
+    <string name="organizations">هيئات</string>
+    <string name="gov_sector">القطاع الحكومي</string>
+    <string name="business_sector">قطاع الأعمال</string>
+    <string name="services">خدمات</string>
+    <string name="tap_to_refresh">اضغط للتحديث</string>
+    <string name="error_loading_data">خطأ في تحميل البيانات</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالانترنت</string>
+    <string name="connection_error">خطأ في الاتصال بالانترنت</string>
+    <string name="no_data">لا يوجد بيانات</string>
+    <string name="no_sectors">لا يوجد قطاعات</string>
+    <string name="no_sub_sectors">لا يوجد أقسام</string>
+    <string name="no_companies">لا يوجد شركات</string>
+    <string name="no_ministry_data">لا يوجد بيانات لهذه الوزارة</string>
+    <string name="address">عنوان</string>
+    <string name="search">بحث</string>
+    <string name="by_sector">بالقطاع</string>
+    <string name="by_sub_sector">بالقسم</string>
+    <string name="by_company">بالشركة</string>
+    <string name="by_place">بالمكان</string>
+    <string name="enter_search_text">أدخل كلمة البحث</string>
+    <string name="no_search_results">لا يوجد نتائج بحث</string>
+    <string name="load_more">اضغط للمزيد</string>
+    <string name="good_morning">صباح\nالخير</string>
+    <string name="good_afternoon">ظهيرة\nسعيدة</string>
+    <string name="good_evening">مساء\nالخير</string>
+    <string name="search_hint">بحث...</string>
+    <string name="search_in_services_hint">بحث في الخدمات...</string>
+    <string name="quick_search">بحث سريع</string>
+    <string name="service_cat1">بنوك</string>
+    <string name="service_cat2">فنادق</string>
+    <string name="service_cat3">سفارات</string>
+    <string name="service_cat4">طبية</string>
+    <string name="service_cat5">مطاعم</string>
+    <string name="service_cat6">شحن</string>
+    <string name="service_cat7">صيانة</string>
+    <string name="service_cat8">عقارات</string>
+    <string name="service_cat9">كمبيوتر</string>
+    <string name="service_cat10">ماركت</string>
+    <string name="service_cat11">تاكسي</string>
+    <string name="language">اللغة</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">الغاء</string>
+    <string name="contact_us">إتصل بنا</string>
+    <string name="management">الإدارة</string>
+    <string name="about_room">عن الغرفة</string>
+    <string name="conferences">مؤتمرات</string>
+    <string name="website">الموقع الالكتروني</string>
+    <string name="no_events">لا يوجد فعاليات</string>
+
+    <!-- EMC CONTACT US DATA -->
+    <string name="emc_cairo_address">جولدن مول - الدور السادس - ميدان فودافون - السادس من اكتوبر - الجيزة - مصر</string>
+    <string name="emc_alex_address">حي رشدي - شارع سوريا - برج سقارة 2 - الدور الثاني</string>
+
+    <!-- PROJECTS NAMES-->
+    <string name="proj1">مشروعي تطوير مطار وميناء الغردقة</string>
+    <string name="proj2">مشروع تنمية محور قناة السويس </string>
+    <string name="proj3">مشروع المركز اللوجستي العالمي لتخزين وتداول الغلال والحبوب </string>
+    <string name="proj4">مشروع تنمية الساحل الشمالي الغربي</string>
+    <string name="proj5">مشروع مدينة الجلود بالروبيكى</string>
+    <string name="proj6">مشروع الخريطة الصناعية المستقبلية</string>
+
+    <!-- ORGANIZATIONS NAMES-->
+    <string name="org1_name">الهيئة العامة للاستثمار والمناطق الحرة</string>
+    <string name="org2_name">لهيئة العامة للتخطيط العمرانى</string>
+    <string name="org3_name">المجلس الأعلى للجامعات</string>
+    <string name="org4_name">الهيئة الزراعية المصرية</string>
+    <string name="org5_name">الهيئة العامة للخدمات البيطرية</string>
+    <string name="org6_name">جهاز حماية المستهلك</string>
+    <string name="org7_name">الهيئة العامة للتنشيط السياحى</string>
+    <string name="org8_name">مكتبة الاسكندرية</string>
+    <string name="org9_name">الهيئة العامة لتنمية الثروة السمكية</string>
+    <string name="org10_name">الهيئة العامة للاستعلامات</string>
+    <string name="org11_name">الهيئة المصرية العامة للمعارض والمؤتمرات</string>
+    <string name="org12_name">الهيئة المصرية العامة للمواصفات والجودة</string>
+    <string name="org13_name">الهيئة العامة للتنمية الصناعية</string>
+    <string name="org14_name">الهيئة العامة لتنفيذ المشروعات الصناعية والتعدينية</string>
+
+    <!-- MINISTRIES NAMES -->
+    <string name="ministry1">رئاسة مجلس الوزراء</string>
+    <string name="ministry2">وزراة الدفاع والانتاج الحربى</string>
+    <string name="ministry3">وزراة الدولة للانتاج الحربى</string>
+    <string name="ministry4">وزارة البترول والثروة المعدنية</string>
+    <string name="ministry5">وزارة الكهرباء والطاقة المتجددة</string>
+    <string name="ministry6">وزارة الخارجية</string>
+    <string name="ministry7">وزارة البيئة</string>
+    <string name="ministry8">وزارة الاتصالات وتكنولوجيا المعلومات</string>
+    <string name="ministry9">وزارة التربية والتعليم</string>
+    <string name="ministry10">وزارة القوى العاملة والهجرة</string>
+    <string name="ministry11">وزارة العدل</string>
+    <string name="ministry12">وزارة التنمية المحلية</string>
+    <string name="ministry13">وزارة الاسكان والمجتمعات العمرانية</string>
+    <string name="ministry14">وزارة الاوقاف</string>
+    <string name="ministry15">وزارة الداخلية</string>
+    <string name="ministry16">وزارة الصناعة والتجارة و الصناعات الصغيرة</string>
+    <string name="ministry17">وزارة المالية</string>
+    <string name="ministry18">وزارة الطيران المدني</string>
+    <string name="ministry19">وزارة النقل والمواصلات</string>
+    <string name="ministry20">وزارة الثقافة</string>
+    <string name="ministry21">وزارة الصحة و السكان</string>
+    <string name="ministry22">وزارة الموارد المائية والري</string>
+    <string name="ministry23">وزارة الزراعة واستصلاح الأراضي</string>
+    <string name="ministry24">وزارة الاستثمار</string>
+    <string name="ministry25">وزارة السياحة</string>
+    <string name="ministry26">وزارة التخطيط والمتابعة والإصلاح الإدارى</string>
+    <string name="ministry27">وزارة التعليم العالي</string>
+    <string name="ministry28">وزارة التموين والتجارة الداخلية</string>
+    <string name="ministry29">وزارة البحث العلمي</string>
+    <string name="ministry30">وزارة الآثار</string>
+    <string name="ministry31">وزراة الشباب والرياضة</string>
+    <string name="ministry32">وزارة العدالة الانتقالية و مجلس النواب</string>
+    <string name="ministry33">وزارة التعاون الدولي</string>
+
+    <!-- MANAGEMENT PERSONS NAMES -->
+    <string name="m_person1">سعادة السفير الدكتور / محمد حمزة الحسينى</string>
+    <string name="m_person2">د/اسلام حمزة الحسينى</string>
+    <string name="m_person3">السيد/محمود حمزة الحسينى الحسينى</string>
+    <string name="m_person4">السيد / احمد ايوب</string>
+    <string name="m_person5">السيد/احمد خليل عبد الحميد</string>
+    <string name="m_person6">السيد / مصطفى محمد احمد</string>
+    <string name="m_person7">السيد / اسلام عبد السلام</string>
+    <string name="m_person8">السيدة / ميرا الهندى</string>
+
+    <!-- INVESTMENT SYSTEMS NAME -->
+    <string name="inv_system1">الاستثمار الداخلى</string>
+    <string name="inv_system2">المناطق الحرة</string>
+    <string name="inv_system3">المناطق الاستثمارية</string>
+    <string name="inv_system4">المناطق الاقتصادية الخاصة</string>
+
+    <string-array name="investment_tabs">
+        <item>@string/national_projects</item>
+        <item>@string/investment_systems</item>
+        <item>@string/international_agreements</item>
+        <item>@string/investment_climate</item>
+    </string-array>
+
+</resources>

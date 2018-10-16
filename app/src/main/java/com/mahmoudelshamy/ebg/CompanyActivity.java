@@ -57,7 +57,7 @@ public class CompanyActivity extends BaseActivity implements View.OnClickListene
         company = (Company) getIntent().getSerializableExtra(Constants.KEY_COMPANY);
 
         // customize actionbar
-        setActionBarTitle(company.getName());
+        setActionBarTitle(AppController.getInstance(getApplicationContext()).getLang().equals("en") ? company.getNameEn() : company.getName());
         setActionbarIcon(R.drawable.ic_back_white);
         setActionBarIconClickListener(new View.OnClickListener() {
             @Override
@@ -88,13 +88,57 @@ public class CompanyActivity extends BaseActivity implements View.OnClickListene
         textWebsite = (TextView) findViewById(R.id.text_webSite);
 
         // --set data--
-        // check if has desc
-        if (!company.getDesc().isEmpty()) {
-            // set desc
-            textDesc.setText(company.getDesc());
+        // check lang
+        if (AppController.getInstance(getApplicationContext()).getLang().equals("en")) {
+            // --english--
+            // check if has desc
+            if (!company.getDescEn().isEmpty()) {
+                // set desc
+                textDesc.setText(company.getDescEn());
+            } else {
+                // hide it
+                textDesc.setVisibility(View.GONE);
+            }
+
+            // check if has address
+            if (!company.getAddressEn().isEmpty()) {
+                // set address
+                textAddress.setText(company.getAddressEn());
+
+                // ensure that has lat & lng values
+                if (company.getLatitude() != 0.0 && company.getLongitude() != 0.0) {
+                    // add the click listener
+                    layoutAddress.setOnClickListener(this);
+                }
+            } else {
+                // hide it
+                layoutAddress.setVisibility(View.GONE);
+            }
         } else {
-            // hide it
-            textDesc.setVisibility(View.GONE);
+            // --arabic--
+            // check if has desc
+            if (!company.getDesc().isEmpty()) {
+                // set desc
+                textDesc.setText(company.getDesc());
+            } else {
+                // hide it
+                textDesc.setVisibility(View.GONE);
+            }
+
+            // check if has address
+            if (!company.getAddress().isEmpty()) {
+                // set address
+                textAddress.setText(company.getAddress());
+
+                // ensure that has lat & lng values
+                if (company.getLatitude() != 0.0 && company.getLongitude() != 0.0) {
+                    // add the click listener
+                    layoutAddress.setOnClickListener(this);
+                }
+            } else {
+                // hide it
+                layoutAddress.setVisibility(View.GONE);
+            }
         }
 
         // ensure that image url is not empty
@@ -111,21 +155,6 @@ public class CompanyActivity extends BaseActivity implements View.OnClickListene
                 public void onError() {
                 }
             });
-        }
-
-        // check if has address
-        if (!company.getAddress().isEmpty()) {
-            // set address
-            textAddress.setText(company.getAddress());
-
-            // ensure that has lat & lng values
-            if (company.getLatitude() != 0.0 && company.getLongitude() != 0.0) {
-                // add the click listener
-                layoutAddress.setOnClickListener(this);
-            }
-        } else {
-            // hide it
-            layoutAddress.setVisibility(View.GONE);
         }
 
         // check if has phone 1

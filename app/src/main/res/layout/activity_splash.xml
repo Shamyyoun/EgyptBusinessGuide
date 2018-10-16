@@ -28,15 +28,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
-                android:layout_marginRight="@dimen/splash_tr_margin"
-                android:id="@+id/imageView2"
-                android:layout_width="@dimen/splash_tr_logo_dimen"
-                android:layout_height="wrap_content"
-                android:scaleType="centerInside"
-                android:adjustViewBounds="true"
-                android:src="@drawable/emc_arc_logo" />
-
             <TextView
                 android:id="@+id/textView1"
                 android:textColor="@color/light_gray"
@@ -44,6 +35,15 @@
                 android:layout_height="wrap_content"
                 android:text="@string/powered_by"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageView
+                android:layout_marginLeft="@dimen/splash_tr_margin"
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/splash_tr_logo_dimen"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/emc_arc_logo" />
 
         </LinearLayout>
     </FrameLayout>

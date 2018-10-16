@@ -1,21 +1,21 @@
 package datamodels;
 
-import java.io.Serializable;
-
 /**
  * Created by Shamyyoun on 3/19/2015.
  */
 public class Sector extends SearchableItem {
     private String id;
     private String name;
+    private String nameEn;
 
     public Sector(String id) {
         this.id = id;
     }
 
-    public Sector(String id, String name) {
+    public Sector(String id, String name, String nameEn) {
         this.id = id;
         this.name = name;
+        this.nameEn = nameEn;
     }
 
     @Override
@@ -36,6 +36,15 @@ public class Sector extends SearchableItem {
     public Sector setName(String name) {
         this.name = name;
         return this;
+    }
+
+    @Override
+    public String getNameEn() {
+        return nameEn;
+    }
+
+    public void setNameEn(String nameEn) {
+        this.nameEn = nameEn;
     }
 
     @Override

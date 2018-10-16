@@ -94,7 +94,7 @@ public class ServicesCategoriesFragment extends Fragment implements View.OnClick
         recyclerServicesCategories.setLayoutManager(layoutManager);
         final ServiceCategory[] categories = getServicesCategories();
         int firstItem = 0;
-        if (AppController.getInstance(activity.getApplicationContext()).getLang() == Constants.LANG_AR) {
+        if (AppController.getInstance(activity.getApplicationContext()).getLang().equals("ar")) {
             Collections.reverse(Arrays.asList(categories));
             firstItem = categories.length - 1;
         }

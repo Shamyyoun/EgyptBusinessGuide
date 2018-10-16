@@ -4,10 +4,6 @@ package datamodels;
  * Created by Shamyyoun on 3/11/2015.
  */
 public class Constants {
-    // languages
-    public static final int LANG_AR = 1;
-    public static final int LANG_EN = 2;
-
     // keys
     public static final String KEY_CONTENT = "content";
     public static final String KEY_TITLE = "title";

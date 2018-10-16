@@ -17,7 +17,7 @@ import utils.FontUtil;
 public class AppController extends Application {
     public static final String END_POINT = "http://egypt-media.com/EBG/services/";
     public static final int SEARCH_RESULTS_LIMIT = 20;
-    private int lang; // TODO test only
+    private String lang;
 
     public AppController() {
         super();
@@ -31,47 +31,40 @@ public class AppController extends Application {
         FontUtil.setDefaultFont(getApplicationContext(), "MONOSPACE", "una_font.ttf");
 
         // load cached language
-        String cachedLang = getCachedString(this, Constants.SP_SETTINGS, Constants.SP_KEY_LANG);
-        if (cachedLang == null)
+        String cachedLang = getLanguage(getApplicationContext());
+        if (cachedLang == null) {
             // Arabic is default
-            lang = Constants.LANG_AR;
-        else if (cachedLang.equals("ar"))
-            lang = Constants.LANG_AR;
-        else if (cachedLang.equals("en"))
-            lang = Constants.LANG_EN;
+            lang = "ar";
+        } else {
+            lang = cachedLang;
+        }
 
-        // update it
-        updateLanguage(lang);
+        // update locale settings
+        updateLocaleLanguage(lang);
     }
 
     /**
      * method used to return current application instance
      */
     public static AppController getInstance(Context context) {
-        return (AppController) context;
+        return (AppController) context.getApplicationContext();
     }
 
     /**
      * method, used to update app language
      */
-    public void updateLanguage(int lang) {
-        String strLang = (lang == Constants.LANG_AR ? "ar" : "en");
-
+    public void updateLocaleLanguage(String lang) {
         // change locale settings
         Resources res = getResources();
         DisplayMetrics dm = res.getDisplayMetrics();
         android.content.res.Configuration conf = res.getConfiguration();
-        conf.locale = new Locale(strLang);
+        conf.locale = new Locale(lang);
         res.updateConfiguration(conf, dm);
 
-        // cache current language
-        updateCachedString(this, Constants.SP_SETTINGS, Constants.SP_KEY_LANG, strLang);
-
-        // update runtime lang field
         this.lang = lang;
     }
 
-    public int getLang() {
+    public String getLang() {
         return lang;
     }
 
@@ -141,6 +134,20 @@ public class AppController extends Application {
         String response = getCachedString(context, Constants.SP_RESPONSES, spKey);
 
         return response;
+    }
+
+    /**
+     * method used to update language in SP
+     */
+    public static void updateLanguage(Context context, String value) {
+        updateCachedString(context, Constants.SP_SETTINGS, Constants.SP_KEY_LANG, value);
+    }
+
+    /**
+     * method used to get language from SP
+     */
+    public static String getLanguage(Context context) {
+        return getCachedString(context, Constants.SP_SETTINGS, Constants.SP_KEY_LANG);
     }
 
     /**

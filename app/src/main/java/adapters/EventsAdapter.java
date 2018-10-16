@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.mahmoudelshamy.ebg.AppController;
 import com.mahmoudelshamy.ebg.R;
 
 import java.util.ArrayList;
@@ -67,8 +68,26 @@ public class EventsAdapter extends SlideExpandableListView.AnimatedExpandableLis
 
         // set data
         holder.textDate.setText(event.getDate());
-        holder.textPlace.setText(event.getPlace());
-        holder.textDesc.setText(event.getDesc1());
+        holder.textPlace.setText(AppController.getInstance(context).getLang().equals("en") ? event.getPlaceEn() : event.getPlace());
+
+        // check language to decide to hide desc or not
+        if (AppController.getInstance(context).equals("en")) {
+            // english
+            if (event.getDesc1En().isEmpty()) {
+                holder.textDesc.setVisibility(View.GONE);
+            } else {
+                holder.textDesc.setText(event.getDesc1En());
+                holder.textDesc.setVisibility(View.VISIBLE);
+            }
+        } else {
+            // arabic
+            if (event.getDesc1().isEmpty()) {
+                holder.textDesc.setVisibility(View.GONE);
+            } else {
+                holder.textDesc.setText(event.getDesc1());
+                holder.textDesc.setVisibility(View.VISIBLE);
+            }
+        }
 
         return convertView;
     }
@@ -113,7 +132,7 @@ public class EventsAdapter extends SlideExpandableListView.AnimatedExpandableLis
         }
 
         // set data
-        holder.textName.setText(event.getName());
+        holder.textName.setText(AppController.getInstance(context).getLang().equals("en") ? event.getNameEn() : event.getName());
 
         // set expand button image
         if (event.isExpanded()) {

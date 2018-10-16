@@ -1,50 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- SPLASH -->
     <dimen name="splash_bottom_panel_margin">20dp</dimen>
     <dimen name="splash_bottom_panel_padding">5dp</dimen>
     <dimen name="splash_tr_margin">12dp</dimen>
-
-    <!-- ACTION BAR -->
     <dimen name="actionbar_icon_padding">10dp</dimen>
     <dimen name="actionbar_icon_dimen">55dp</dimen>
-
-    <!-- MENU DRAWER -->
-    <dimen name="menudrawer_item_padding_top">8dp</dimen>
-    <dimen name="menudrawer_item_padding_right">17dp</dimen>
-    <dimen name="menudrawer_first_item_margin_top">20dp</dimen>
-    <dimen name="menudrawer_item_margin_top">10dp</dimen>
-    <dimen name="menudrawer_radio_group_margin">30dp</dimen>
-    <dimen name="menudrawer_radio_lang_margin">10dp</dimen>
-
-    <!-- ABOUT QATAR CATEGORY -->
-    <dimen name="text_padding">15dp</dimen>
     <dimen name="view_margin">15dp</dimen>
-    <dimen name="about_qatar_category_text_padding">7dp</dimen>
-
-    <!-- MEDIA CENTER -->
-    <dimen name="media_center_image_margin">20dp</dimen>
-
-    <!-- HOME -->
-    <dimen name="home_text_nashid_padding">4dp</dimen>
-
-    <!-- EVENTS -->
-    <dimen name="events_layout_padding_top">15dp</dimen>
-    <dimen name="events_layout_padding_left">25dp</dimen>
-    <dimen name="events_list_margin_top">15dp</dimen>
-
-    <!-- EVENTS THUMBNAILS ITEM -->
-    <dimen name="events_twowayview_thumbnail_padding">5dp</dimen>
-
-    <!-- NATIONAL DAYS ITEM -->
     <dimen name="content_padding_vertical">7dp</dimen>
-
-    <!-- OUR PRESIDENTS -->
     <dimen name="content_padding_horizontal">20dp</dimen>
     <dimen name="screen_horizontal_margin">16dp</dimen>
     <dimen name="screen_vertical_margin">16dp</dimen>
-
     <dimen name="text_field_min_width">120dp</dimen>
+    <dimen name="tabs_seperator_height">25dp</dimen>
 
 </resources>

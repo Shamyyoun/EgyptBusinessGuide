@@ -1,21 +1,21 @@
 package datamodels;
 
-import java.io.Serializable;
-
 /**
  * Created by Shamyyoun on 3/19/2015.
  */
 public class SubSector extends SearchableItem {
     private String id;
     private String name;
+    private String nameEn;
 
     public SubSector(String id) {
         this.id = id;
     }
 
-    public SubSector(String id, String name) {
+    public SubSector(String id, String name, String nameEn) {
         this.id = id;
         this.name = name;
+        this.nameEn = nameEn;
     }
 
     @Override
@@ -36,6 +36,15 @@ public class SubSector extends SearchableItem {
     public SubSector setName(String name) {
         this.name = name;
         return this;
+    }
+
+    @Override
+    public String getNameEn() {
+        return nameEn;
+    }
+
+    public void setNameEn(String nameEn) {
+        this.nameEn = nameEn;
     }
 
     @Override

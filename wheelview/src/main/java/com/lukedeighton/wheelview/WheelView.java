@@ -1,18 +1,17 @@
 /**
- *
- *   Copyright (C) 2014 Luke Deighton
- *
- *   Licensed under the Apache License, Version 2.0 (the "License");
- *   you may not use this file except in compliance with the License.
- *   You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- *   Unless required by applicable law or agreed to in writing, software
- *   distributed under the License is distributed on an "AS IS" BASIS,
- *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *   See the License for the specific language governing permissions and
- *   limitations under the License.
+ * Copyright (C) 2014 Luke Deighton
+ * <p/>
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * <p/>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p/>
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
 
 package com.lukedeighton.wheelview;
@@ -36,7 +35,6 @@ import android.view.ViewGroup;
 
 import com.lukedeighton.wheelview.adapter.WheelAdapter;
 import com.lukedeighton.wheelview.transformer.FadingSelectionTransformer;
-import com.lukedeighton.wheelview.transformer.ScalingItemTransformer;
 import com.lukedeighton.wheelview.transformer.SimpleItemTransformer;
 import com.lukedeighton.wheelview.transformer.WheelItemTransformer;
 import com.lukedeighton.wheelview.transformer.WheelSelectionTransformer;
@@ -1040,13 +1038,25 @@ public class WheelView extends View {
                     drawable.draw(canvas);
 
                     // draw title
-                    int valueToDecrement = (int) (0.15 * sTempRect.left);
-                    float percent = ((canvas.getHeight() / 2.0f) - sTempRect.centerY()) / (canvas.getHeight() / 2);
-                    valueToDecrement *= percent;
-
+                    int valueToDecrement = 0;
                     titlePaint.setTextSize((5 * sTempRect.width()) / 15);
                     titlePaint.getTextBounds(title, 0, title.length(), titleBounds);
-                    int xTitle = sTempRect.left - titleBounds.width() - TITLE_MARGIN;
+                    int xTitle;
+                    if (mWheelPosition == 0x01) {
+                        // left
+                        xTitle = sTempRect.left + sTempRect.width() + TITLE_MARGIN;
+
+                        valueToDecrement = (int) (0.15 * (canvas.getWidth() - sTempRect.right));
+                        float percent = ((canvas.getHeight() / 2.0f) - sTempRect.centerY()) / (canvas.getHeight() / 2);
+                        valueToDecrement *= percent;
+                    } else {
+                        // right
+                        xTitle = sTempRect.left - titleBounds.width() - TITLE_MARGIN;
+
+                        valueToDecrement = (int) (0.15 * sTempRect.left);
+                        float percent = ((canvas.getHeight() / 2.0f) - sTempRect.centerY()) / (canvas.getHeight() / 2);
+                        valueToDecrement *= percent;
+                    }
                     int yTitle = (int) (sTempRect.centerY() - ((titlePaint.descent() + titlePaint.ascent()) / 2) - valueToDecrement);
                     canvas.drawText(title, xTitle, yTitle, titlePaint);
                 }

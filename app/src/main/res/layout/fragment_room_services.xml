@@ -25,5 +25,4 @@
             android:textColor="@color/dark_gray"
             android:textSize="@dimen/text_medium" />
     </ScrollView>
-
 </LinearLayout>

@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import com.mahmoudelshamy.ebg.AppController;
 import com.mahmoudelshamy.ebg.R;
 
 import datamodels.SubSector;
@@ -44,7 +45,7 @@ public class SubSectorsAdapter extends ArrayAdapter<SubSector> {
         SubSector subSector = data[position];
 
         // set data
-        holder.textName.setText(subSector.getName());
+        holder.textName.setText(AppController.getInstance(activity.getApplicationContext()).getLang().equals("en") ? subSector.getNameEn() : subSector.getName());
 
         return row;
     }

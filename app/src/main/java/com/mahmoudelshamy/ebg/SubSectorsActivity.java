@@ -36,7 +36,7 @@ public class SubSectorsActivity extends ProgressActivity {
         listView = (ListView) findViewById(R.id.listView);
 
         // customize actionbar
-        setActionBarTitle(sector.getName());
+        setActionBarTitle(AppController.getInstance(getApplicationContext()).getLang().equals("en") ? sector.getNameEn() : sector.getName());
         setActionbarIcon(R.drawable.ic_back_white);
         setActionBarIconClickListener(new View.OnClickListener() {
             @Override

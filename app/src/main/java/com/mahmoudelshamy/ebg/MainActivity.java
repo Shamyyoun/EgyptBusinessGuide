@@ -19,7 +19,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import datamodels.Constants;
 import utils.ScreenUtil;
 import views.BaseActivity;
 
@@ -66,7 +65,7 @@ public class MainActivity extends BaseActivity implements WheelView.OnWheelItemC
 
         // get wheel items & reorder them according to language
         wheelItems = getMenuItems();
-        if (AppController.getInstance(getApplicationContext()).getLang() == Constants.LANG_AR)
+        if (AppController.getInstance(getApplicationContext()).getLang().equals("ar"))
             Collections.reverse(wheelItems);
 
         // set wheel menu adapter
@@ -96,7 +95,7 @@ public class MainActivity extends BaseActivity implements WheelView.OnWheelItemC
 
         // set dialog initial data
         dialog.setTitle(R.string.language);
-        if (AppController.getInstance(getApplicationContext()).getLang() == Constants.LANG_EN)
+        if (AppController.getInstance(getApplicationContext()).getLang().equals("en"))
             radioEnglish.setChecked(true);
 
         // add listeners to dialog buttons
@@ -110,7 +109,7 @@ public class MainActivity extends BaseActivity implements WheelView.OnWheelItemC
     @Override
     public void onWheelItemClick(WheelView parent, int position, boolean isSelected) {
         // get correct index according to current language
-        if (AppController.getInstance(getApplicationContext()).getLang() == Constants.LANG_AR)
+        if (AppController.getInstance(getApplicationContext()).getLang().equals("ar"))
             position = wheelItems.size() - 1 - position;
 
         Intent intent = null;
@@ -140,9 +139,9 @@ public class MainActivity extends BaseActivity implements WheelView.OnWheelItemC
                 break;
 
             case 6:
-                // show language dialog
-//                radioArabic.setChecked(AppController.getInstance(getApplicationContext()).getLang() == Constants.LANG_AR);
-//                dialog.show();
+                // show language dialog with saved language checked
+                radioArabic.setChecked(AppController.getInstance(getApplicationContext()).getLang().equals("ar"));
+                dialog.show();
                 break;
         }
 
@@ -159,21 +158,23 @@ public class MainActivity extends BaseActivity implements WheelView.OnWheelItemC
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button_contactUs:
-                Intent intent1 = new Intent(this, ContactUsActivity.class);
-                startActivity(intent1);
+                startActivity(new Intent(this, ContactUsActivity.class));
                 overridePendingTransition(R.anim.child_enter, R.anim.parent_exit);
                 break;
 
             case R.id.button_save:
                 // get selected language
-                int selectedLang = (radioArabic.isChecked() ? Constants.LANG_AR : Constants.LANG_EN);
+                String selectedLang = (radioArabic.isChecked() ? "ar" : "en");
 
-                // update language
-                AppController.getInstance(getApplicationContext()).updateLanguage(selectedLang);
+                // update language and save it
+                AppController.updateLanguage(this, selectedLang);
+                AppController.getInstance(getApplicationContext()).updateLocaleLanguage(selectedLang);
+
+                // dismiss dialog
+                dialog.dismiss();
 
                 // restart app
-                Intent intent2 = new Intent(MainActivity.this, SplashActivity.class);
-                startActivity(intent2);
+                startActivity(new Intent(MainActivity.this, SplashActivity.class));
                 finish();
 
                 break;
@@ -206,6 +207,9 @@ public class MainActivity extends BaseActivity implements WheelView.OnWheelItemC
 
         WheelItem wheelItem5 = new WheelItem(getString(R.string.services), getResources().getDrawable(R.drawable.radial_menu_icon));
         wheelItems.add(wheelItem5);
+
+        WheelItem wheelItem6 = new WheelItem(getString(R.string.language), getResources().getDrawable(R.drawable.radial_menu_icon));
+        wheelItems.add(wheelItem6);
 
         return wheelItems;
     }

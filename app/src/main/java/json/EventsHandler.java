@@ -36,12 +36,15 @@ public class EventsHandler {
         try {
             String id = jsonObject.getString("id");
             String name = jsonObject.getString("name");
+            String nameEn = jsonObject.getString("name_en");
             String date = jsonObject.getString("date");
             String place = jsonObject.getString("place");
+            String placeEn = jsonObject.getString("place_en");
             String desc1 = jsonObject.getString("desc1");
+            String desc1En = jsonObject.getString("desc1_en");
             String logo = jsonObject.getString("logo");
 
-            event = new Event(id, name, date, place, desc1, logo);
+            event = new Event(id, name, nameEn, date, place, placeEn, desc1, desc1En, logo);
         } catch (JSONException e) {
             event = null;
             e.printStackTrace();

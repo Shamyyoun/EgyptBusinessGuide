@@ -72,7 +72,7 @@ public class ServicesAdapter extends SlideExpandableListView.AnimatedExpandableL
         }
 
         // set data
-        String address = AppController.getInstance(activity.getApplicationContext()).getLang() == Constants.LANG_AR ? service.getAddressAr() : service.getAddressEn();
+        String address = AppController.getInstance(activity.getApplicationContext()).getLang().equals("ar") ? service.getAddressAr() : service.getAddressEn();
 
         if (address == null) {
             holder.layoutAddress.setVisibility(View.GONE);
@@ -134,7 +134,7 @@ public class ServicesAdapter extends SlideExpandableListView.AnimatedExpandableL
         }
 
         // set data
-        String name = AppController.getInstance(activity.getApplicationContext()).getLang() == Constants.LANG_AR ? service.getNameAr() : service.getNameEn();
+        String name = AppController.getInstance(activity.getApplicationContext()).getLang().equals("ar") ? service.getNameAr() : service.getNameEn();
         holder.textTitle.setText(name);
 
         // set expand button image

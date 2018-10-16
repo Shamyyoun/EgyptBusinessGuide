@@ -1,91 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- PUBLIC -->
     <dimen name="text_large">32sp</dimen>
     <dimen name="text_medium">24sp</dimen>
     <dimen name="text_small">22sp</dimen>
-
-    <!-- ACTION BAR -->
     <dimen name="title_dimen">30sp</dimen>
-
-    <!-- SPLASH -->
     <dimen name="splash_logo_size">400dp</dimen>
     <dimen name="splash_tr_logo_dimen">180dp</dimen>
-
-    <!-- ABOUT QATAR -->
-    <dimen name="about_qatar_tabs_seperator_height">57dp</dimen>
-
-    <!-- ABOUT QATAR CATEGORY -->
-    <dimen name="about_qatar_category_image_height">450dp</dimen>
     <dimen name="spinner_item_padding">16sp</dimen>
-
-    <!-- SPONSORS ITEM -->
     <dimen name="ex_list_text_margin">35dp</dimen>
     <dimen name="list_item_thumbnail_dimen">124dp</dimen>
-
-    <!-- EVENTS -->
-    <dimen name="events_twowayview_thumbnail_width">202dp</dimen>
-    <dimen name="events_twowayview_thumbnail_height">192dp</dimen>
-    <dimen name="events_twowayview_refresh_size">113dp</dimen>
-
-    <!-- GALLERY -->
-    <dimen name="gallery_image_width">743dp</dimen>
-
-    <!-- MEDIA CENTER -->
     <dimen name="rounded_image_dimen">338dp</dimen>
-
-    <!-- NATIONAL DAY -->
     <dimen name="national_logo_dimen">450dp</dimen>
-
-    <!-- ROUNDED IMAGE VIEW -->
     <dimen name="rounded_imageview_radius">45dp</dimen>
-
     <dimen name="ex_list_expand_icon_dimen">27dp</dimen>
-
     <dimen name="ex_list_subitem_icon_dimen">63dp</dimen>
-
     <dimen name="rounded_logo_dimen">185dp</dimen>
-
     <dimen name="radial_menu_logo_width">158dp</dimen>
     <dimen name="radial_menu_radius">518dp</dimen>
     <dimen name="radial_menu_item_radius">57dp</dimen>
     <dimen name="radial_menu_path_width">461dp</dimen>
-
     <dimen name="tab_text_padding">45dp</dimen>
-
     <dimen name="error_image_dimen">180dp</dimen>
     <dimen name="error_text_margin">34dp</dimen>
-
     <dimen name="grid_grad_height">170dp</dimen>
     <dimen name="grid_title_margin">18dp</dimen>
     <dimen name="grid_item_height1">450dp</dimen>
     <dimen name="grid_item_height2">507dp</dimen>
-
     <dimen name="company_text_margin">23dp</dimen>
     <dimen name="company_info_icon_dimen">78dp</dimen>
-
     <dimen name="search_bar_horizontal_margin">35dp</dimen>
     <dimen name="search_bar_vertical_margin">18dp</dimen>
     <dimen name="search_red_icon_dimen">102dp</dimen>
-
     <dimen name="list_footer_padding">11.5dp</dimen>
-
     <dimen name="welcome_text_margin">15.5dp</dimen>
     <dimen name="welcome_text_size">145sp</dimen>
     <dimen name="services_categories_title_margin">11.5dp</dimen>
     <dimen name="services_categories_height">270dp</dimen>
-
     <dimen name="services_categories_item_width">180dp</dimen>
     <dimen name="services_categories_item_spacing">11.5dp</dimen>
-
     <dimen name="content_image_height">428dp</dimen>
-
     <dimen name="quar_circle_icon_dimen">157dp</dimen>
-
     <dimen name="arc_logo_dimen">292dp</dimen>
-
     <dimen name="horizontal_list_arrow_width">90dp</dimen>
-
     <dimen name="cat_title_padding">23dp</dimen>
+    <dimen name="services_categories_item_padding">11dp</dimen>
 </resources>

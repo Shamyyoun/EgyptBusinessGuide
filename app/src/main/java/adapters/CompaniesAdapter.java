@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jpardogo.listbuddies.lib.adapters.CircularLoopAdapter;
+import com.mahmoudelshamy.ebg.AppController;
 import com.mahmoudelshamy.ebg.R;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
@@ -68,7 +69,7 @@ public class CompaniesAdapter extends CircularLoopAdapter {
         item.setLayoutParams(layoutParams);
 
         // set name
-        holder.textName.setText(company.getName());
+        holder.textName.setText(AppController.getInstance(activity.getApplicationContext()).getLang().equals("en") ? company.getNameEn() : company.getName());
 
         // ensure that image url is not empty
         if (!company.getLogo().isEmpty()) {

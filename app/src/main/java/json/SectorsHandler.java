@@ -36,8 +36,9 @@ public class SectorsHandler {
         try {
             String id = jsonObject.getString("id");
             String name = jsonObject.getString("name");
+            String nameEn = jsonObject.getString("name_en");
 
-            sector = new Sector(id, name);
+            sector = new Sector(id, name, nameEn);
         } catch (JSONException e) {
             sector = null;
             e.printStackTrace();

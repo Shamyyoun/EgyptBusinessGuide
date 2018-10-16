@@ -4,77 +4,77 @@
     <string name="app_name">Egypt Business Guide</string>
     <string name="maps_api_key">AIzaSyDRW6LNlRCRle9CPM11ZIw4ihiNbdJbkUE</string>
 
-    <string name="powered_by">بواسطة</string>
-    <string name="egypt_business_guide">دليل مصر للأعمال</string>
-    <string name="trade_room">الغرفة التجارية</string>
-    <string name="egypt_media_center">المركز المصري للإعلام</string>
-    <string name="introduction">مقدمة</string>
-    <string name="vision">الرؤية</string>
-    <string name="investment_in_egypt">الاستثمار في مصر</string>
-    <string name="investment_climate">المناخ الاستثماري</string>
-    <string name="international_agreements">الاتفاقيات الدولية</string>
-    <string name="investment_systems">أنظمة الاستثمار</string>
-    <string name="national_projects">المشروعات القومية</string>
-    <string name="ministries">وزارات</string>
-    <string name="organizations">هيئات</string>
-    <string name="gov_sector">القطاع الحكومي</string>
-    <string name="business_sector">قطاع الأعمال</string>
-    <string name="services">خدمات</string>
-    <string name="tap_to_refresh">اضغط للتحديث</string>
-    <string name="error_loading_data">خطأ في تحميل البيانات</string>
-    <string name="no_internet_connection">لا يوجد اتصال بالانترنت</string>
-    <string name="connection_error">خطأ في الاتصال بالانترنت</string>
-    <string name="no_data">لا يوجد بيانات</string>
-    <string name="no_sectors">لا يوجد قطاعات</string>
-    <string name="no_sub_sectors">لا يوجد أقسام</string>
-    <string name="no_companies">لا يوجد شركات</string>
-    <string name="no_ministry_data">لا يوجد بيانات لهذه الوزارة</string>
-    <string name="address">عنوان</string>
-    <string name="search">بحث</string>
-    <string name="by_sector">بالقطاع</string>
-    <string name="by_sub_sector">بالقسم</string>
-    <string name="by_company">بالشركة</string>
-    <string name="by_place">بالمكان</string>
-    <string name="enter_search_text">أدخل كلمة البحث</string>
-    <string name="no_search_results">لا يوجد نتائج بحث</string>
-    <string name="load_more">اضغط للمزيد</string>
-    <string name="good_morning">صباح\nالخير</string>
-    <string name="good_afternoon">ظهيرة\nسعيدة</string>
-    <string name="good_evening">مساء\nالخير</string>
-    <string name="search_hint">بحث...</string>
-    <string name="search_in_services_hint">بحث في الخدمات...</string>
-    <string name="quick_search">بحث سريع</string>
-    <string name="service_cat1">بنوك</string>
-    <string name="service_cat2">فنادق</string>
-    <string name="service_cat3">سفارات</string>
-    <string name="service_cat4">طبية</string>
-    <string name="service_cat5">مطاعم</string>
-    <string name="service_cat6">شحن</string>
-    <string name="service_cat7">صيانة</string>
-    <string name="service_cat8">عقارات</string>
-    <string name="service_cat9">كمبيوتر</string>
-    <string name="service_cat10">ماركت</string>
-    <string name="service_cat11">تاكسي</string>
-    <string name="language">اللغة</string>
+    <string name="powered_by">Powered by</string>
+    <string name="egypt_business_guide">Egypt Business Guide</string>
+    <string name="trade_room">Trade Room</string>
+    <string name="egypt_media_center">Egypt Media Center</string>
+    <string name="introduction">Introduction</string>
+    <string name="vision">Vision</string>
+    <string name="investment_in_egypt">Investment In Egypt</string>
+    <string name="investment_climate">Investment Climate</string>
+    <string name="international_agreements">International Agreements</string>
+    <string name="investment_systems">Investment Systems</string>
+    <string name="national_projects">National Projects</string>
+    <string name="ministries">Ministries</string>
+    <string name="organizations">Organizations</string>
+    <string name="gov_sector">Government Sector</string>
+    <string name="business_sector">Business Sector</string>
+    <string name="services">Services</string>
+    <string name="tap_to_refresh">Tap to refresh</string>
+    <string name="error_loading_data">Error loading data</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="connection_error">Connection error</string>
+    <string name="no_data">No data</string>
+    <string name="no_sectors">No sectors</string>
+    <string name="no_sub_sectors">No sub sectors</string>
+    <string name="no_companies">No companies</string>
+    <string name="no_ministry_data">No data for this ministry</string>
+    <string name="address">Address</string>
+    <string name="search">Search</string>
+    <string name="by_sector">Sector</string>
+    <string name="by_sub_sector">SubSector</string>
+    <string name="by_company">Company</string>
+    <string name="by_place">Place</string>
+    <string name="enter_search_text">Enter search text</string>
+    <string name="no_search_results">No search results</string>
+    <string name="load_more">Load more</string>
+    <string name="good_morning">Good\nMorning</string>
+    <string name="good_afternoon">Good\nAfternoon</string>
+    <string name="good_evening">Good\nEvening</string>
+    <string name="search_hint">Search...</string>
+    <string name="search_in_services_hint">Search in services...</string>
+    <string name="quick_search">Quick Search</string>
+    <string name="service_cat1">Banks</string>
+    <string name="service_cat2">Hotels</string>
+    <string name="service_cat3">Embassies</string>
+    <string name="service_cat4">Medical</string>
+    <string name="service_cat5">Restaurants</string>
+    <string name="service_cat6">Shipping</string>
+    <string name="service_cat7">Maintenance</string>
+    <string name="service_cat8">Real Estates</string>
+    <string name="service_cat9">Computers</string>
+    <string name="service_cat10">Markets</string>
+    <string name="service_cat11">Taxi</string>
+    <string name="language">Language</string>
     <string name="arabic">العربية</string>
     <string name="english">English</string>
-    <string name="save">حفظ</string>
-    <string name="cancel">الغاء</string>
-    <string name="contact_us">إتصل بنا</string>
-    <string name="management">الإدارة</string>
-    <string name="about_room">عن الغرفة</string>
-    <string name="conferences">مؤتمرات</string>
-    <string name="website">الموقع الالكتروني</string>
-    <string name="no_events">لا يوجد فعاليات</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="management">Managaement</string>
+    <string name="about_room">About Room</string>
+    <string name="conferences">Conferences</string>
+    <string name="website">Website</string>
+    <string name="no_events">No events</string>
 
     <!-- EMC CONTACT US DATA -->
-    <string name="emc_cairo_address">جولدن مول - الدور السادس - ميدان فودافون - السادس من اكتوبر - الجيزة - مصر</string>
+    <string name="emc_cairo_address">--</string>
     <string name="emc_cairo_phone1">+2 02 3830 0510</string>
     <string name="emc_cairo_phone2">+2 02 3830 0488</string>
     <string name="emc_cairo_fax">+2 02 3830 0508</string>
     <string name="emc_cairo_mail">info@egypt-media.com</string>
     <string name="emc_cairo_website">egypt-media.com</string>
-    <string name="emc_alex_address">حي رشدي - شارع سوريا - برج سقارة 2 - الدور الثاني</string>
+    <string name="emc_alex_address">--</string>
     <string name="emc_alex_phone">03 5233704</string>
     <string name="emc_alex_fax">03-5232386</string>
     <string name="emc_alex_mail">info.alex@egypt-media.com</string>
@@ -88,8 +88,8 @@
     <string name="proj6">مشروع الخريطة الصناعية المستقبلية</string>
 
     <!-- ORGANIZATIONS NAMES-->
-    <string name="org1_name">الهيئة العامة للاستثمار والمناطق الحرة</string>
-    <string name="org2_name">لهيئة العامة للتخطيط العمرانى</string>
+    <string name="org1_name">General Authority for Investment and Free Zones </string>
+    <string name="org2_name">General Authority for Urban Planning </string>
     <string name="org3_name">المجلس الأعلى للجامعات</string>
     <string name="org4_name">الهيئة الزراعية المصرية</string>
     <string name="org5_name">الهيئة العامة للخدمات البيطرية</string>
@@ -145,39 +145,39 @@
     <string name="org14_phone2">02-25883396</string>
 
     <!-- MINISTRIES NAMES -->
-    <string name="ministry1">رئاسة مجلس الوزراء</string>
-    <string name="ministry2">وزراة الدفاع والانتاج الحربى</string>
-    <string name="ministry3">وزراة الدولة للانتاج الحربى</string>
-    <string name="ministry4">وزارة البترول والثروة المعدنية</string>
-    <string name="ministry5">وزارة الكهرباء والطاقة المتجددة</string>
-    <string name="ministry6">وزارة الخارجية</string>
-    <string name="ministry7">وزارة البيئة</string>
-    <string name="ministry8">وزارة الاتصالات وتكنولوجيا المعلومات</string>
-    <string name="ministry9">وزارة التربية والتعليم</string>
-    <string name="ministry10">وزارة القوى العاملة والهجرة</string>
-    <string name="ministry11">وزارة العدل</string>
-    <string name="ministry12">وزارة التنمية المحلية</string>
-    <string name="ministry13">وزارة الاسكان والمجتمعات العمرانية</string>
-    <string name="ministry14">وزارة الاوقاف</string>
-    <string name="ministry15">وزارة الداخلية</string>
-    <string name="ministry16">وزارة الصناعة والتجارة و الصناعات الصغيرة</string>
-    <string name="ministry17">وزارة المالية</string>
-    <string name="ministry18">وزارة الطيران المدني</string>
-    <string name="ministry19">وزارة النقل والمواصلات</string>
-    <string name="ministry20">وزارة الثقافة</string>
-    <string name="ministry21">وزارة الصحة و السكان</string>
-    <string name="ministry22">وزارة الموارد المائية والري</string>
-    <string name="ministry23">وزارة الزراعة واستصلاح الأراضي</string>
-    <string name="ministry24">وزارة الاستثمار</string>
-    <string name="ministry25">وزارة السياحة</string>
-    <string name="ministry26">وزارة التخطيط والمتابعة والإصلاح الإدارى</string>
-    <string name="ministry27">وزارة التعليم العالي</string>
-    <string name="ministry28">وزارة التموين والتجارة الداخلية</string>
-    <string name="ministry29">وزارة البحث العلمي</string>
-    <string name="ministry30">وزارة الآثار</string>
-    <string name="ministry31">وزراة الشباب والرياضة</string>
-    <string name="ministry32">وزارة العدالة الانتقالية و مجلس النواب</string>
-    <string name="ministry33">وزارة التعاون الدولي</string>
+    <string name="ministry1">Presidency of the Council of Ministers </string>
+    <string name="ministry2">Ministry of Defense and Military Production </string>
+    <string name="ministry3">Ministry of State for Military Production </string>
+    <string name="ministry4">Ministry of Petroleum </string>
+    <string name="ministry5">The Ministry of Electricity and Renewable Energy</string>
+    <string name="ministry6">Ministry of Foreign Affairs </string>
+    <string name="ministry7">The Ministry of Environment </string>
+    <string name="ministry8">Ministry of Communications and Information Technology </string>
+    <string name="ministry9">Ministry of Education </string>
+    <string name="ministry10">The Ministry of Manpower and Immigration </string>
+    <string name="ministry11">Ministry of Justice </string>
+    <string name="ministry12">Ministry of Local Development </string>
+    <string name="ministry13">Ministry of Housing, Utilities and Urban Communities </string>
+    <string name="ministry14">The Ministry of Awqaf </string>
+    <string name="ministry15">Ministry of the Interior </string>
+    <string name="ministry16">----</string>
+    <string name="ministry17">Ministry of Finance</string>
+    <string name="ministry18">Ministry of Civil Aviation </string>
+    <string name="ministry19">Ministry of Transportation </string>
+    <string name="ministry20">Ministry of Culture </string>
+    <string name="ministry21">Ministry of Health </string>
+    <string name="ministry22">The Ministry of Water Resources and Irrigation </string>
+    <string name="ministry23">Ministry of Agriculture and land reclamation </string>
+    <string name="ministry24">The Ministry of Investment The Ministry of Investment </string>
+    <string name="ministry25">Ministry of Tourism </string>
+    <string name="ministry26">--</string>
+    <string name="ministry27">Ministry of Higher Education </string>
+    <string name="ministry28">Ministry of Supply and Internal Trade </string>
+    <string name="ministry29">Ministry of Scientific Research </string>
+    <string name="ministry30">Ministry of Antiquities </string>
+    <string name="ministry31">Ministry of Youth and Sports </string>
+    <string name="ministry32">-----</string>
+    <string name="ministry33">Ministry of International Cooperation </string>
 
     <!-- MINISTRIES WEBSITES -->
     <string name="ministry1_website">cabinet.gov.eg</string>
@@ -271,8 +271,8 @@
     <string name="ministry33_phone2">02-23935147</string>
 
     <!-- MANAGEMENT PERSONS NAMES -->
-    <string name="m_person1">سعادة السفير الدكتور / محمد حمزة الحسينى</string>
-    <string name="m_person2">د/اسلام حمزة الحسينى</string>
+    <string name="m_person1">H.E.Ambassador Dr.Mohamed Hamza Elhouseni</string>
+    <string name="m_person2">Dr.Eslam Hamza Elhouseni</string>
     <string name="m_person3">السيد/محمود حمزة الحسينى الحسينى</string>
     <string name="m_person4">السيد / احمد ايوب</string>
     <string name="m_person5">السيد/احمد خليل عبد الحميد</string>
@@ -284,22 +284,22 @@
     <string name="m_person1_mail">chairman@egypt-media.com</string>
     <string name="m_person2_mail">Dr.eslam@egypt-media.com</string>
     <string name="m_person3_mail">m.hamza@egypt-media.com</string>
-    <string name="m_person5_mail">art@egyp-media.com</string>
+    <string name="m_person5_mail">art@egypt-media.com</string>
     <string name="m_person6_mail">Mustafa@egypt-media.com</string>
     <string name="m_person7_mail">eslam@egypt-media.com</string>
     <string name="m_person8_mail">mira@egypt-media.com</string>
 
     <!-- INVESTMENT SYSTEMS NAME -->
-    <string name="inv_system1">الاستثمار الداخلى</string>
-    <string name="inv_system2">المناطق الحرة</string>
-    <string name="inv_system3">المناطق الاستثمارية</string>
-    <string name="inv_system4">المناطق الاقتصادية الخاصة</string>
+    <string name="inv_system1">Inland Investment</string>
+    <string name="inv_system2">Free Zones</string>
+    <string name="inv_system3">Investment Zones</string>
+    <string name="inv_system4">Special Economic Zones</string>
 
     <string-array name="investment_tabs">
-        <item>@string/national_projects</item>
-        <item>@string/investment_systems</item>
-        <item>@string/international_agreements</item>
         <item>@string/investment_climate</item>
+        <item>@string/international_agreements</item>
+        <item>@string/investment_systems</item>
+        <item>@string/national_projects</item>
     </string-array>
 
     <string-array name="projects">

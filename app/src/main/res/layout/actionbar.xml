@@ -5,6 +5,29 @@
     android:gravity="center_vertical"
     android:orientation="horizontal" >
 
+    <ImageButton
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:id="@+id/button_icon"
+        android:layout_width="@dimen/actionbar_icon_dimen"
+        android:layout_height="match_parent"
+        android:background="@drawable/clickable_item"
+        android:paddingLeft="@dimen/actionbar_icon_padding"
+        android:paddingRight="@dimen/actionbar_icon_padding"
+        android:src="@drawable/ic_app_white" />
+
+    <TextView
+        android:singleLine="true"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:id="@+id/text_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="@string/egypt_business_guide"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_dimen" />
 
     <ImageButton
         android:id="@+id/button_openSearch"
@@ -17,29 +40,5 @@
         android:src="@drawable/ic_search_white"
         android:background="@drawable/clickable_item"
         android:visibility="visible" />
-
-    <TextView
-        android:singleLine="true"
-        android:maxLines="1"
-        android:scrollHorizontally="true"
-        android:id="@+id/text_title"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="right"
-        android:text="@string/egypt_business_guide"
-        android:textColor="@color/white"
-        android:textSize="@dimen/title_dimen" />
-
-    <ImageButton
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        android:id="@+id/button_icon"
-        android:layout_width="@dimen/actionbar_icon_dimen"
-        android:layout_height="match_parent"
-        android:background="@drawable/clickable_item"
-        android:paddingLeft="@dimen/actionbar_icon_padding"
-        android:paddingRight="@dimen/actionbar_icon_padding"
-        android:src="@drawable/ic_app_white" />
 
 </LinearLayout>

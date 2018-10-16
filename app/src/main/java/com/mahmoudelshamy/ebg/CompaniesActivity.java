@@ -37,7 +37,7 @@ public class CompaniesActivity extends ProgressActivity {
         listBuddiesLayout = (ListBuddiesLayout) findViewById(R.id.listBuddiesLayout);
 
         // customize actionbar
-        setActionBarTitle(subSector.getName());
+        setActionBarTitle(AppController.getInstance(getApplicationContext()).getLang().equals("en") ? subSector.getNameEn() : subSector.getName());
         setActionbarIcon(R.drawable.ic_back_white);
         setActionBarIconClickListener(new View.OnClickListener() {
             @Override

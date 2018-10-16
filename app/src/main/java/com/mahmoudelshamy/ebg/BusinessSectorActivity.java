@@ -48,12 +48,6 @@ public class BusinessSectorActivity extends ProgressActivity {
                 onBackPressed();
             }
         });
-        setActionBarIconClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
 
         // init views
         wheelView = (WheelView) findViewById(R.id.wheelView);
@@ -97,7 +91,7 @@ public class BusinessSectorActivity extends ProgressActivity {
      */
     private void setWheelViewAdapter(final Sector[] sectors) {
         // reverse item to be displayed from right to left in ARABIC lang
-        if (AppController.getInstance(getApplicationContext()).getLang() == Constants.LANG_AR)
+        if (AppController.getInstance(getApplicationContext()).getLang().equals("ar"))
             Collections.reverse(Arrays.asList(sectors));
 
         // set adapter
@@ -106,7 +100,8 @@ public class BusinessSectorActivity extends ProgressActivity {
             @Override
             public WheelItem getMenuItem(int position) {
                 Sector sector = sectors[position];
-                WheelItem wheelItem = new WheelItem(sector.getName(), getResources().getDrawable(R.drawable.radial_menu_icon));
+                String sectorName = AppController.getInstance(getApplicationContext()).getLang().equals("en") ? sector.getNameEn() : sector.getName();
+                WheelItem wheelItem = new WheelItem(sectorName, getResources().getDrawable(R.drawable.radial_menu_icon));
                 return wheelItem;
             }
 

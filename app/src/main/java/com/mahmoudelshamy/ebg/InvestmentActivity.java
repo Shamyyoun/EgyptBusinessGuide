@@ -43,7 +43,7 @@ public class InvestmentActivity extends BaseActivity {
         // --set recycler adapter--
         final String[] tabs = getResources().getStringArray(R.array.investment_tabs);
         int firstTab = 0;
-        if (AppController.getInstance(getApplicationContext()).getLang() == Constants.LANG_AR)
+        if (AppController.getInstance(getApplicationContext()).getLang().equals("ar"))
             firstTab = tabs.length - 1;
         final TabsAdapter adapter = new TabsAdapter(tabs, firstTab);
         adapter.setOnItemClickListener(new TabsAdapter.OnItemClickListener() {
@@ -51,7 +51,7 @@ public class InvestmentActivity extends BaseActivity {
             public void onItemClick(View view, int position) {
                 // check language to get appropriate tab position
                 int selectedTab = position;
-                if (AppController.getInstance(getApplicationContext()).getLang() == Constants.LANG_AR)
+                if (AppController.getInstance(getApplicationContext()).getLang().equals("ar"))
                     selectedTab = tabs.length - 1 - position;
 
                 // select tab

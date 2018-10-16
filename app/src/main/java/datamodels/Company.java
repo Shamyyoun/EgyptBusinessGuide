@@ -1,21 +1,22 @@
 package datamodels;
 
-import java.io.Serializable;
-
 /**
  * Created by Shamyyoun on 3/19/2015.
  */
-public class Company extends SearchableItem{
+public class Company extends SearchableItem {
     private String id;
     private String name;
+    private String nameEn;
     private String country;
     private String place;
     private String desc;
+    private String descEn;
     private String telephone1;
     private String telephone2;
     private String mobile1;
     private String mobile2;
     private String address;
+    private String addressEn;
     private double latitude;
     private double longitude;
     private String fax;
@@ -48,6 +49,15 @@ public class Company extends SearchableItem{
         return this;
     }
 
+    public String getNameEn() {
+        return nameEn;
+    }
+
+    public Company setNameEn(String nameEn) {
+        this.nameEn = nameEn;
+        return this;
+    }
+
     public String getCountry() {
         return country;
     }
@@ -73,7 +83,15 @@ public class Company extends SearchableItem{
     public Company setDesc(String desc) {
         this.desc = desc;
         return this;
+    }
 
+    public String getDescEn() {
+        return descEn;
+    }
+
+    public Company setDescEn(String descEn) {
+        this.descEn = descEn;
+        return this;
     }
 
     public String getTelephone1() {
@@ -118,6 +136,15 @@ public class Company extends SearchableItem{
 
     public Company setAddress(String address) {
         this.address = address;
+        return this;
+    }
+
+    public String getAddressEn() {
+        return addressEn;
+    }
+
+    public Company setAddressEn(String addressEn) {
+        this.addressEn = addressEn;
         return this;
     }
 

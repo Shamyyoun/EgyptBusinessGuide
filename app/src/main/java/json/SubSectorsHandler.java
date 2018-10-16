@@ -36,8 +36,9 @@ public class SubSectorsHandler {
         try {
             String id = jsonObject.getString("id");
             String name = jsonObject.getString("name");
+            String nameEn = jsonObject.getString("name_en");
 
-            subSector = new SubSector(id, name);
+            subSector = new SubSector(id, name, nameEn);
         } catch (JSONException e) {
             subSector = null;
             e.printStackTrace();

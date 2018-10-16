@@ -36,14 +36,17 @@ public class CompaniesHandler {
         try {
             String id = jsonObject.getString("id");
             String name = jsonObject.getString("name");
+            String nameEn = jsonObject.getString("name_en");
             String country = jsonObject.getString("country");
             String place = jsonObject.getString("place");
             String desc = jsonObject.getString("desc1");
+            String descEn = jsonObject.getString("desc1_en");
             String telephone1 = jsonObject.getString("telephone1");
             String telephone2 = jsonObject.getString("telephone2");
             String mobile1 = jsonObject.getString("mobile1");
             String mobile2 = jsonObject.getString("mobile2");
             String address = jsonObject.getString("address");
+            String addressEn = jsonObject.getString("address_en");
             double latitude = jsonObject.getDouble("latitude");
             double longitude = jsonObject.getDouble("longitude");
             String fax = jsonObject.getString("fax");
@@ -54,14 +57,17 @@ public class CompaniesHandler {
 
             company = new Company(id)
                     .setName(name)
+                    .setNameEn(nameEn)
                     .setCountry(country)
                     .setPlace(place)
                     .setDesc(desc)
+                    .setDescEn(descEn)
                     .setTelephone1(telephone1)
                     .setTelephone2(telephone2)
                     .setMobile1(mobile1)
                     .setMobile2(mobile2)
                     .setAddress(address)
+                    .setAddressEn(addressEn)
                     .setLatitude(latitude)
                     .setLongitude(longitude)
                     .setFax(fax)

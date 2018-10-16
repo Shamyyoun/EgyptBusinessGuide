@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.mahmoudelshamy.ebg.AppController;
 import com.mahmoudelshamy.ebg.R;
 import com.mahmoudelshamy.ebg.SearchActivity;
 
@@ -52,6 +53,12 @@ public class BaseActivity extends ActionBarActivity {
 
     public void setActionbarIcon(int iconRes) {
         buttonIcon.setImageResource(iconRes);
+
+        // check language
+        if (iconRes == R.drawable.ic_back_white && AppController.getInstance(getApplicationContext()).getLang().equals("en")) {
+            // reverse back button
+            buttonIcon.setScaleX(-1);
+        }
     }
 
     public void setActionBarIconClickListener(View.OnClickListener listener) {

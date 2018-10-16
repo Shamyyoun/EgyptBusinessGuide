@@ -21,7 +21,7 @@
     <View
         android:id="@+id/view_seperator"
         android:layout_width="1dp"
-        android:layout_height="@dimen/about_qatar_tabs_seperator_height"
+        android:layout_height="@dimen/tabs_seperator_height"
         android:background="@color/light_red" />
 
 </LinearLayout>
